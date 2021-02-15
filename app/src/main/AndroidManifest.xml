@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.atlanticgrains">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n">
+        <activity android:name="com.example.atlanticgrains.MainActivity"></activity>
+        <activity android:name="com.example.atlanticgrains.API_IssueProductionItems" />
+        <activity android:name="com.example.atlanticgrains.API_Nav2" />
+        <activity android:name="com.example.atlanticgrains.API_ReceivedSAP" />
+        <activity android:name="com.example.atlanticgrains.API_SelectedItems" />
+        <activity android:name="com.example.atlanticgrains.API_ItemInfo" />
+        <activity android:name="com.example.atlanticgrains.APIReceived" />
+        <activity android:name="com.example.atlanticgrains.API_SalesLogs" />
+        <activity android:name="com.example.atlanticgrains.ShoppingCart" /> <!-- <activity android:name=".AvailableItems" /> -->
+        <activity android:name="com.example.atlanticgrains.API_InventoryConfirmation" />
+        <activity android:name="com.example.atlanticgrains.OfflineList" />
+        <activity android:name="com.example.atlanticgrains.OfflineItems" />
+        <activity android:name="com.example.atlanticgrains.CutOff" />
+        <activity android:name="com.example.atlanticgrains.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.atlanticgrains.API_SalesLogsItems" />
+        <activity android:name="com.example.atlanticgrains.IPAddress" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPrimary">#1687a7</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="sweetCorn">#F0EAD6</color>
+    <color name="colorBlue">#00477e</color>
+    <color name="colorGray">#d9d9d9</color>
+    <color name="colorLabel">#4a4d4b</color>
+    <color name="dividerColor">#80DBC4</color>
+    <color name="list_item_title">#AAAAAA</color>
+    <color name="list_group_title">#808080</color>
+</resources>

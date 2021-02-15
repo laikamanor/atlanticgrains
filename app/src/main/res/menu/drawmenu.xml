@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Signed In Gordon Macaraeg">
+        <group android:checkableBehavior="single">
+        </group>
+    </item>
+    <item android:title="Settings">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_logOut"
+                    android:title="Logout" />
+                <item
+                    android:id="@+id/nav_cutOff"
+                    android:title="Cut Off" />
+            </menu>
+        </group>
+    </item>
+    <item android:title="Items">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_scanItem"
+                    android:title="Scan Item" />
+                <item
+                    android:id="@+id/nav_exploreItems"
+                    android:title="Menu Items" />
+                <item
+                    android:id="@+id/nav_shoppingCart"
+                    android:title="Shopping Cart" />
+            </menu>
+        </group>
+    </item>
+    <item android:title="Inventory">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_inventory"
+                    android:title="Inventory" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Item Receivable">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_itemReceivable"
+                    android:title="Item Receivable" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Received from SAP">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                android:id="@+id/nav_receivedSap"
+                android:title="Received from SAP" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Manual Transactions">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_receivedProduction"
+                    android:title="Manual Received from Production" />
+                <item
+                    android:id="@+id/nav_receivedBranch"
+                    android:title="Manual Received from Other Branch" />
+                <item
+                    android:id="@+id/nav_receivedSupplier"
+                    android:title="Manual Received from Direct Supplier" />
+                <item
+                    android:id="@+id/nav_transferOut2"
+                    android:title="Manual Transfer Out" />
+            </menu>
+        </group>
+    </item>
+
+
+
+
+    <item android:title="Pull Out">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_storeCountListPullOut"
+                    android:title="PO Store Count" />
+                <item
+                    android:id="@+id/nav_auditorCountListPullOut"
+                    android:title="PO Auditor Count" />
+                <item
+                    android:id="@+id/nav_finalCountListPullOut"
+                    android:title="PO Final Count" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Actual Ending Balance">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                android:id="@+id/nav_storeCountList"
+                android:title="AEB Store Count" />
+                <item
+                    android:id="@+id/nav_auditorCountList"
+                    android:title="AEB Auditor Count" />
+                <item
+                    android:id="@+id/nav_finalCountList"
+                    android:title="AEB Final Count" />
+                <item
+                    android:id="@+id/nav_updateActualEndingBalance"
+                    android:title="Update Actual Ending Balance" />
+            </menu>
+        </group>
+    </item>
+
+
+
+    <item android:title="Adjustments">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_adjusmentIn"
+                    android:title="Adjustment In" />
+                <item
+                    android:id="@+id/nav_adjustmentOut"
+                    android:title="Adjustment Out" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Cancel Rec/Trans">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_cancelRecTrans"
+                    android:title="Cancel Rec/Trans" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Users">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_createUser"
+                    android:title="Create User" />
+            </menu>
+        </group>
+    </item>
+</menu>
